@@ -261,7 +261,13 @@ game:GetService("UserInputService").InputBegan:Connect(function(input, gameProce
     end
 end)
 
-wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Loading FPS Boost!";
+    Text = "Getting Things Ready...",
+    Duration = 3 -- How long the notification will appear
+})
+
+wait(3)
 
 -- FPS Optimizations
 game.Lighting.GlobalShadows = false -- Disable global shadows for better performance
