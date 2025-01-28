@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 
 game.StarterGui:SetCore("SendNotification", {
     Title = "Welcome! ";
-    Text = "" .. player.Name .. ", enjoy Crimware Free Version!";
+    Text = "" .. player.Name .. ", enjoy Crimware Paid Version!";
     Icon = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. player.UserId .. "&width=150&height=150&format=png";
     Duration = 5; -- How long the notification will appear
 })
